@@ -17,7 +17,7 @@ public class HotelController {
     }
 
     @PostMapping("/hotels")
-    public Hotel createHotel(@RequestBody Hotel hotelToCreate) {
+    public Hotel createHotel(@RequestBody HotelCreationDTO  hotelToCreate) {
         return null;
     }
 

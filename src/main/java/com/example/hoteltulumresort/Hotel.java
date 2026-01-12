@@ -1,4 +1,6 @@
 package com.example.hoteltulumresort;
 
-public record Hotel( String name, int stars){
+import java.util.UUID;
+
+public record Hotel(UUID id, String name, int stars){
 }
