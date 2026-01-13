@@ -1,4 +1,4 @@
-package com.example.hoteltulumresort;
+package com.example.hoteltulumresort.infrastructure;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotBlank;

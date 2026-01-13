@@ -1,5 +1,6 @@
-package com.example.hoteltulumresort;
+package com.example.hoteltulumresort.infrastructure;
 
+import com.example.hoteltulumresort.domain.Hotel;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,7 +18,7 @@ public class HotelController {
     }
 
     @PostMapping("/hotels")
-    public Hotel createHotel(@RequestBody HotelCreationDTO  hotelToCreate) {
+    public Hotel createHotel(@RequestBody HotelCreationDTO hotelToCreate) {
         return null;
     }
 
